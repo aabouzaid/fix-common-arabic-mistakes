@@ -1,0 +1,17 @@
+REM  *****  BASIC  *****
+
+Sub FixArabicCommon2
+oDoc = thisComponent
+aFind = Array("(.*\w[^a-zA-Z\W\d])([ ]?;)", "(.*\w[^a-zA-Z\W\d])([ ]?,)", "\([ ]*", "[ ]*\)", "^[\ ]*$", "^[\ ]*", "[\ ]*$", "[ ]*", " :", " ؛", " ،", " \.", " !", " ؟", " و ", "^و ", "ـ")
+aReplace = Array("$1؛", "$1،", "(", ")", "", "", "", " ", ":", "؛", "،", ".", "!", "؟", " و", "و", "")
+aRayCount = 0
+FandR = oDoc.createReplaceDescriptor
+FandR.SearchCaseSensitive = true
+FandR.SearchRegularExpression = true
+While aRayCount <= uBound(aFind)
+FandR.setSearchString(aFind(aRayCount))
+FandR.setReplaceString(aReplace(aRayCount))
+aRayCount = aRayCount + 1
+oDoc.ReplaceAll(FandR)
+Wend
+End Sub
