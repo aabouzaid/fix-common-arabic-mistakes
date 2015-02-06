@@ -2,7 +2,7 @@ REM  *****  BASIC  *****
 
 Sub FixArabicCommon2
 oDoc = thisComponent
-aFind = Array("(.*\w[^a-zA-Z\W\d])([ ]?;)", "(.*\w[^a-zA-Z\W\d])([ ]?,)", "\([ ]*", "[ ]*\)", "^[\ ]*$", "^[\ ]*", "[\ ]*$", "[ ]*", " :", " ؛", " ،", " \.", " !", " ؟", " و ", "^و ", "ـ")
+aFind = Array("(\p{script=arabic}\W?)([ ]?;)", "(\p{script=arabic}\W?)([ ]?,)", "\([ ]+", "[ ]+\)", "^[\ ]*$", "^[\ ]*", "[\ ]*$", "[ ]+", " :", " ؛", " ،", " \.", " !", " ؟", " و ", "^و ", "ـ")
 aReplace = Array("$1؛", "$1،", "(", ")", "", "", "", " ", ":", "؛", "،", ".", "!", "؟", " و", "و", "")
 aRayCount = 0
 FandR = oDoc.createReplaceDescriptor
