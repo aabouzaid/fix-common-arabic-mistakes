@@ -1,6 +1,6 @@
 REM  *****  BASIC  *****
 
-Sub FixArabicCommon2
+Sub FixCommonArabicMistakes
 oDoc = thisComponent
 aFind = Array("(\p{script=arabic}\W?)([ ]?;)", "(\p{script=arabic}\W?)([ ]?,)", "\([ ]+", "[ ]+\)", "^[\ ]*$", "^[\ ]*", "[\ ]*$", "[ ]+", " :", " ؛", " ،", " \.", " !", " ؟", " و ", "^و ", "ـ")
 aReplace = Array("$1؛", "$1،", "(", ")", "", "", "", " ", ":", "؛", "،", ".", "!", "؟", " و", "و", "")
