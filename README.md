@@ -14,6 +14,11 @@ What's it doing?
 - Replaces Latin comma (decimal separator) "," after Arabic words to Arabic comma "،".
 - Replaces Latin semicolon ";" after Arabic words to Arabic semicolon "؛".
 
+Basic version.
+-------------------
+Just copy the code into built-in macros editor.
+
+
 Python version.
 -------------------
 By default Open/LibreOffice supports Basic natively, and if you want to use python, you have to install an extra package.
@@ -42,6 +47,10 @@ From the menu:
 Tools ▸ Macros ▸ Run Macro ▸ LibreOffice Macros ▸ FixCommonArabicMistakes-Python
 ```
 
+<p align="center">
+<img src="http://3.bp.blogspot.com/-onSnFwBXg8o/Vk9WbSOLhKI/AAAAAAAACJc/4aEiIB2Pop4/run_python_libreoffice_macros.png" width="320">
+</p>
+
 Standalone version.
 -------------------
 I made a Standalone version of script too, it useful with bulk files or so, it maybe not that cool, but maybe help someone :-)
@@ -52,4 +61,3 @@ This script not works as a macro but will start Opne/LibreOffice on a specific l
 ```
 ./FixCommonArabicMistakes-Standalone.py file_name.odt
 ```
-
