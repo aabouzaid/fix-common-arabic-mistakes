@@ -21,7 +21,7 @@ Just copy the code into built-in macros editor.
 
 Python version.
 -------------------
-By default Open/LibreOffice supports Basic natively, and if you want to use python, you have to install an extra package.
+By default Open/LibreOffice supports Basic natively, and if you want to use python macros, you have to install an extra package.
 
 For Ubuntu:
 ```
