@@ -34,7 +34,7 @@ FCAM script (Fix Common Arabic Mistakes).
 
     2. Run.
      From the menu:
-     Tools ▸ Macros ▸ Run Macro ▸ LibreOffice Macros ▸ FixCommonArabicMistakes-Python.
+     Tools ▸ Macros ▸ Run Macro ▸ LibreOffice Macros ▸ FixCommonArabicMistakes-Python
 
  VERSION:
     v0.1 - November 2015.

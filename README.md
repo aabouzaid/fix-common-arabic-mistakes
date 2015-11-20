@@ -39,5 +39,5 @@ Global path to make it available for all users:
 ### Run
 From the menu:
 ```
-Tools ▸ Macros ▸ Run Macro ▸ LibreOffice Macros ▸ FixCommonArabicMistakes-Python.
+Tools ▸ Macros ▸ Run Macro ▸ LibreOffice Macros ▸ FixCommonArabicMistakes-Python
 ```
