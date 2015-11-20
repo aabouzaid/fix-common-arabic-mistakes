@@ -41,3 +41,15 @@ From the menu:
 ```
 Tools ▸ Macros ▸ Run Macro ▸ LibreOffice Macros ▸ FixCommonArabicMistakes-Python
 ```
+
+Standalone version.
+-------------------
+I made a Standalone version of script too, it useful with bulk files or so, it maybe not that cool, but maybe help someone :-)
+
+This script not works as a macro but will start Opne/LibreOffice on a specific local port and connect to it, then open the file passed to it, and fix common mistakes. It will not save the file automatically, but it will wait you to do save as a final action.
+
+### Run:
+```
+./FixCommonArabicMistakes-Standalone.py file_name.odt
+```
+
