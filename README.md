@@ -9,7 +9,8 @@ What's it doing?
 - Removes Arabic Kashida (Tatweel "ـ").
 - Removes whitespaces after single WAW letter (و).
 - Removes whitespaces before Arabic punctuation (؛،.؟:!).
-- Removes whitespaces in parentheses  ... after "(" and before ")".
+- Removes any sequence of question and exclamation marks and replace them with one only (e.g. "!!!" and "??").
+- Removes whitespaces in inside brackets "()" and "[]".
 - Removes any sequence of whitespaces and whitespaces at end of lines.
 - Replaces Latin comma (decimal separator) "," after Arabic words to Arabic comma "،".
 - Replaces Latin semicolon ";" after Arabic words to Arabic semicolon "؛".
